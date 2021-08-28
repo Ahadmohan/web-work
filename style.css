@@ -1,27 +1,22 @@
-h1{font-size: 50px;
+h1{font-size: 40px;
+    font-family: 'Poppins', sans-serif;
 
-font-family: 'Poppins', sans-serif;
 
 }
 body{
     margin: 0%;
-}
-h2{
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1{
-    color: red;
     font-family: 'Poppins', sans-serif;
-
 }
+
+
 .hasib{color:orange;}
 .kon{
     width: 40%;
     float: left;
-    margin-left: 4%;
+    margin-left: 5%;
     padding-left: 2%;
 }
+
 .kon img{
 width: 100%;
 }
@@ -39,6 +34,40 @@ section{
     border-radius: 5px;
     color:white;
     font-weight:700;
-
-
 }
+.land img{
+    width: 40%;
+}
+p{
+    color:dimgray;
+}
+.drem-area{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h3{
+    color: orange;
+}
+.single-experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.detective{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stuck{
+border-left: 7px solid;
+border-image:linear-gradient(lightsalmon,red);
+border-image-slice: 1;
+}
+#full-stuck2{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightblue,blue);
+    border-image-slice: 1;
+}
+footer p{text-align: center;
+font-size: 12px;}
